@@ -4,6 +4,8 @@
 
     <data>
 
+        <import type="android.view.View"/>
+
         <import type="com.stanete.databinding.MyStringUtils"/>
 
         <variable
@@ -62,6 +64,7 @@
                     android:layout_height="wrap_content"
                     android:onClick="@{handlers.onClickGoToDetails}"
                     android:padding="16dp"
+                    android:visibility="@{user.loggedIn ? View.VISIBLE : View.GONE}"
                     android:text="DETALLES" />
 
             </LinearLayout>

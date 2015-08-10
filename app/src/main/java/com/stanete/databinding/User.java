@@ -11,6 +11,7 @@ public class User extends BaseObservable {
 
     private String firstName;
     private String lastName;
+    private boolean loggedIn;
     private boolean friend;
 
     @Bindable
@@ -42,6 +43,16 @@ public class User extends BaseObservable {
     public void setFriend(boolean friend) {
         this.friend = friend;
         notifyPropertyChanged(com.stanete.databinding.BR.friend);
+    }
+
+    @Bindable
+    public boolean isLoggedIn() {
+        return loggedIn;
+    }
+
+    public void setLoggedIn(boolean loggedIn) {
+        this.loggedIn = loggedIn;
+        notifyPropertyChanged(com.stanete.databinding.BR.loggedIn);
     }
 
     public void changeData(View view) {

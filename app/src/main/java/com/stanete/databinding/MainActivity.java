@@ -6,7 +6,6 @@ import android.os.Bundle;
 
 import com.stanete.databinding.databinding.ActivityMainBinding;
 
-import org.apache.commons.lang3.StringUtils;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         binding.setUser(user);
         binding.setHandlers(handlers);
+
+
 
     }
 }
