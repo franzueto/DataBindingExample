@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/stanete/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc1/3ff7c148dedcb5bb8e24d39292c7fdf4f92f1c1b/baseLibrary-1.0-rc1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3ff7c148dedcb5bb8e24d39292c7fdf4f92f1c1b">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/baseLibrary-1.0-rc1-3641fa316a8045696d0b20a0ba9b6d81b906d2db.jar" />
-    </item>
-    <item
-        jar="/Users/stanete/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-0a7da4e235dc830120b440fdac087c03621cbc0b.jar" />
-    </item>
-    <item
-        jar="/Users/stanete/Desktop/DataBinding/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc1/jars/classes.jar"
+        jar="/Users/stanete/DataBindingExample/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="8343ce741100717e95bd5c4ad7baa4fd31b73f1b">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/classes-6ad44c40ed089bf62729c4d61fa881cfd1093a09.jar" />
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/classes-7f2b03ae2f35f548bd085008d2c5dea19a9179dc.jar" />
+    </item>
+    <item
+        jar="/Users/stanete/DataBindingExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/classes-c48a11da4595725a98ae694a62606716a1038aba.jar" />
     </item>
     <item
         jar="/Users/stanete/Library/Android/sdk/extras/android/m2repository/com/android/databinding/adapters/1.0-rc1/adapters-1.0-rc1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="8a82ed058e9e709740dd89c88e1be77196a71eee">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/adapters-1.0-rc1-6c67e31a3a263b55eeafdccfd795e9e5d207a7b9.jar" />
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/adapters-1.0-rc1-6c67e31a3a263b55eeafdccfd795e9e5d207a7b9.jar" />
     </item>
     <item
-        jar="/Users/stanete/Desktop/DataBinding/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/Users/stanete/DataBindingExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-0e6fd34e1c82b9311fdb95a280b6e78103b4199b.jar" />
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-a3ad7b65480121e20aaa39b686071d185bcfb72d.jar" />
     </item>
     <item
-        jar="/Users/stanete/Desktop/DataBinding/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jar="/Users/stanete/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc1/3ff7c148dedcb5bb8e24d39292c7fdf4f92f1c1b/baseLibrary-1.0-rc1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/classes-33f52d70479f37bbe1f4adce9f0ad9c5227c9d73.jar" />
+        sha1="3ff7c148dedcb5bb8e24d39292c7fdf4f92f1c1b">
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/baseLibrary-1.0-rc1-3641fa316a8045696d0b20a0ba9b6d81b906d2db.jar" />
     </item>
     <item
-        jar="/Users/stanete/Desktop/DataBinding/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/stanete/DataBindingExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/stanete/Desktop/DataBinding/app/build/intermediates/pre-dexed/debug/classes-527ad234599a020d017a88c6c614aa33f5fae873.jar" />
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/classes-2eb5227d391061e3377c1f1c36fd9fcb961a921d.jar" />
+    </item>
+    <item
+        jar="/Users/stanete/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/stanete/DataBindingExample/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-0a7da4e235dc830120b440fdac087c03621cbc0b.jar" />
     </item>
 
 </items>

@@ -2,16 +2,16 @@ package com.stanete.databinding;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+import android.view.View;
 
 /**
  * Created by @stanete
  */
 public class User extends BaseObservable {
-    private String firstName;
 
-    public User(String firstName) {
-        this.firstName = firstName;
-    }
+    private String firstName;
+    private String lastName;
+    private boolean friend;
 
     @Bindable
     public String getFirstName() {
@@ -19,7 +19,34 @@ public class User extends BaseObservable {
     }
 
     public void setFirstName(String firstName) {
+
         this.firstName = firstName;
         notifyPropertyChanged(com.stanete.databinding.BR.firstName);
+    }
+
+    @Bindable
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+        notifyPropertyChanged(com.stanete.databinding.BR.lastName);
+    }
+
+    @Bindable
+    public boolean isFriend() {
+        return friend;
+    }
+
+    public void setFriend(boolean friend) {
+        this.friend = friend;
+        notifyPropertyChanged(com.stanete.databinding.BR.friend);
+    }
+
+    public void changeData(View view) {
+
+        setFirstName("David");
+
     }
 }

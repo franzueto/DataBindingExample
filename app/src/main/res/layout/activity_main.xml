@@ -4,9 +4,16 @@
 
     <data>
 
+        <import type="com.stanete.databinding.MyStringUtils"/>
+
         <variable
             name="user"
             type="com.stanete.databinding.User" />
+
+        <variable
+            name="handlers"
+            type="com.stanete.databinding.Handlers" />
+
     </data>
 
     <LinearLayout
@@ -23,16 +30,41 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@{user.firstName}"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="El nombre del usuario es:"
                 android:textSize="18sp" />
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="changeData"
-                android:text="HACER MAGIA" />
+                android:text="@{user.firstName != null ? MyStringUtils.capitalize(user.firstName) : @string/user_no_name}"
+                android:textSize="18sp"
+                android:padding="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{handlers.onClickChangeName}"
+                    android:padding="16dp"
+                    android:text="CAMBIAR NOMBRE" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{handlers.onClickGoToDetails}"
+                    android:padding="16dp"
+                    android:text="DETALLES" />
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </layout>
